@@ -1,0 +1,19 @@
+.policy-padding{
+    padding:0 2.5rem;
+}
+.policy-container__small{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 100%;
+    max-width: 48rem;
+}
+.policy-padding__block{
+    padding: 6rem 0;
+}
+.policy-text h4{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+}

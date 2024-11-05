@@ -1,0 +1,199 @@
+.services-padding{
+    padding: 0 2.5rem
+}
+p{
+    color: #5B5B5B;
+}
+h2 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.services-container{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 100%;
+    max-width: 80rem;
+}
+.services-padding__block{
+    padding: 6rem 0;
+}
+.services-padding__small{
+    padding: 4rem 0;
+}
+.header-component{
+    display: grid;
+    margin-top: 3rem;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 3rem;
+    grid-row-gap: 4rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.header-content__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.header-content__left h1{
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+}
+.header-content__right{
+    position: relative;
+}
+.header-content__img{
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.image-circular-text.is-bottom-aligned {
+    left: auto;
+    top: auto;
+    right: -4rem;
+    bottom: 29.5rem;
+}
+/* content */
+.layout-left__component{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 4rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.layout-left__image-wrapper{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main-image{
+    width: 100%;
+    max-height: 32rem;
+    border-radius: 1.25rem;
+    filter: grayscale(100%);
+    object-fit: cover;
+}
+.image-overlay-small-square {
+    position: absolute;
+    left: -5%;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 1.25rem;
+    background-color: #f58a07;
+    mix-blend-mode: multiply;
+}
+.layout-left__content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+ul {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-left: 1.25rem;
+}
+li{
+    list-style-type: disc;
+}
+.layout-right__component{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 3rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.layout-right__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.layout-right__image-wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.woman3{
+    width: 100%;
+    max-height: 32rem;
+    border-radius: 1.25rem;
+    filter: grayscale(100%);
+    object-fit: cover;
+}
+.image-overlay-small-square.is-aligned-right {
+    left: auto;
+    top: 55%;
+    right: -5%;
+    mix-blend-mode: multiply;
+}
+@media screen and (max-width: 767px){
+    .services-padding{
+        padding: 0 1.25rem;
+    }
+    .services-padding__block{
+        padding: 3rem 0;
+    }
+    .header-component{
+        margin-top: 4rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+    .layout-left__component{
+        grid-template-columns: 1fr;
+    }
+    .layout-right__component{
+        grid-template-columns: 1fr;
+    }
+    .woman3{
+        height: 100%;
+    }
+    .nav-mobile__list li{
+        list-style-type: none !important;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+
+    .header-component{
+        grid-template-columns: 1fr;
+    }
+    .services-padding__block{
+        padding: 4rem 0;
+    }
+    .serviceWork{
+        width: 100%;
+    }
+    .image-circular-text.is-bottom-aligned{
+        right: -2.5rem;
+    }
+}
+@media screen and (max-width: 1025px) and (min-width: 992px){
+    .header-component{
+        margin-top: 4rem;
+        grid-template-columns: 1fr;
+    }
+    .serviceWork{
+        width: 100%;
+    }
+    .image-circular-text.is-bottom-aligned{
+        right: -2.5rem;
+        bottom: 45.5rem;
+    }
+}

@@ -1,0 +1,96 @@
+.contact-padding{
+    padding:0 2.5rem;
+}
+.contact-container{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 100%;
+    max-width: 80rem;
+}
+.contact-padding__block{
+    padding: 6rem 0;
+}
+.contact-component{
+    margin-top: 3rem;
+}
+.contact-content{
+    display: grid;
+    margin-bottom: 4rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 0 auto;
+    grid-auto-flow: row;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 4rem;
+    grid-row-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.contact-details{
+    display: grid;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.contact-details__wrapper h3{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.contact-content__wrapper{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 4rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.form_input {
+    min-height: 3.5rem !important;
+    margin-bottom: 0.75rem !important;
+    padding: 0.5rem 2rem !important;
+    border: 1px none #000 !important;
+    border-radius: 2rem;
+    background-color: rgba(210, 218, 237, 0.17) !important;
+}
+.form_input.is-text-area {
+    min-height: 10rem !important;
+    padding-top: 1.5rem!important;
+}
+.button.is-form__submit {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.contact-map{
+    position: relative;
+    overflow: hidden;
+}
+.form_input.is-subscribe{
+    background-color: #fff !important;
+}
+
+@media screen and (max-width: 767px){
+    .contact-padding{
+        padding: 0 1.25rem;
+    }
+    .contact-padding__block{
+        padding: 3rem 0;
+    }
+    .contact-content{
+        margin-bottom: 2rem;
+        grid-template-columns: 1fr;
+    }
+    .contact-component {
+        margin-top: 4rem;
+    }
+    .contact-content__wrapper{
+        grid-template-columns: 1fr;
+        grid-column-gap: 2rem;
+    }
+}

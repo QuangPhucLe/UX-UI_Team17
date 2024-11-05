@@ -1,0 +1,37 @@
+.inner-padding{
+    padding: 0 2.5rem;
+}
+.inner-container{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 100%;
+    max-width: 80rem;
+}
+.inner-padding__block{
+    padding: 6rem 0;
+}
+.blog-template__component{
+    margin-top: 3rem;
+}
+.working-img{
+    width: 100%;
+    max-height: 32rem;
+    border-radius: 1.25rem;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 767px){
+    .inner-padding{
+        padding: 0 1.25rem;
+    }
+    .inner-padding__block{
+        padding: 3rem 0;
+    }
+    .blog-template__component{
+        margin-top: 4rem;
+    }
+    .blog-template__author-content{
+        grid-template-columns: max-content !important;
+    }
+
+}
